@@ -7,7 +7,8 @@ Make your timestamps easier to read for your users. Very easy to use.
 npm install time-difference-simplifier
 ```
 
-## Import package to your project
+## Import package
+After the package installation is successful, you can import the package to your project.
 ```
 // Using import method
 import { getTimeDifference } from "time-difference-simplifier";
@@ -17,6 +18,7 @@ const { getTimeDifference } = require("time-difference-simplifier")
 ```
 
 ## Usage
+After the package is imported, you can use the function directly to your code. Here are some example of usage:
 ```
 const now = new Date();
 const timeDifference1 = getTimeDifference(now);
@@ -32,8 +34,9 @@ const future = new Date(2030, 8, 19, 0, 0, 0));
 const timeDifference3 = getTimeDifference(future);
 // Result: Invalid date
 ```
-
+If your date is in the future, the code will return "Invalid date".
 ## Available result patterns
+Here are all the available result pattern that you can get:
 - Just now (less than or equal to 10 seconds)
 - x second ago / x seconds ago
 - x minute ago / x minutes ago
