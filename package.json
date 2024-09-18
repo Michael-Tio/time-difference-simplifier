@@ -1,0 +1,30 @@
+{
+  "name": "time-difference-simplifier",
+  "version": "1.0.0",
+  "description": "Simplify timestamps difference in Node.js to enhance readability for human users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "time",
+    "date",
+    "nodejs",
+    "timestamp",
+    "difference",
+    "time-readable",
+    "time-simplifier",
+    "time-difference",
+    "time-difference-simplifier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Tio/time-difference-simplifier.git"
+  },
+  "author": "Michael Andreas Prasetio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Michael-Tio/time-difference-simplifier/issues"
+  },
+  "homepage": "https://github.com/Michael-Tio/time-difference-simplifier#readme"
+}
