@@ -1,7 +1,7 @@
 {
   "name": "time-difference-simplifier",
   "version": "1.0.0",
-  "description": "Simplify timestamps difference in Node.js to enhance readability for human users.",
+  "description": "Simplify timestamps difference in Node.js to enhance readability for users.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
