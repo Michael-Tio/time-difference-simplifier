@@ -1,6 +1,6 @@
 {
   "name": "time-difference-simplifier",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simplify timestamps difference in Node.js to enhance readability for users.",
   "main": "index.js",
   "scripts": {
