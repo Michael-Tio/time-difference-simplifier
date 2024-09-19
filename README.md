@@ -3,13 +3,13 @@ Make your timestamps easier to read for your users. Very easy to use.
 
 
 ## Install package (Run in terminal)
-```
+```sh
 npm install time-difference-simplifier
 ```
 
 ## Import package
 After the package installation is successful, you can import the package to your project.
-```
+```js
 // Using import method
 import { getTimeDifference } from "time-difference-simplifier";
 
@@ -19,7 +19,7 @@ const { getTimeDifference } = require("time-difference-simplifier")
 
 ## Usage
 After the package is imported, you can use the function directly to your code. Here are some example of usage:
-```
+```js
 const now = new Date();
 const timeDifference1 = getTimeDifference(now);
 // Result: Just now
